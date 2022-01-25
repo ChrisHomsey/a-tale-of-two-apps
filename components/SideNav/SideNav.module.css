@@ -1,0 +1,26 @@
+.aside {
+    float: left;
+    width: 200px;
+    padding: 0.5rem 1rem;
+    border-right: #ccc 1px solid;
+}
+
+.aside h4 {
+    color: #555;
+}
+
+.aside ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.item {
+    font-size: 1.2rem;
+    margin-left: 0;
+    line-height: 1.5;
+}
+
+.item a {
+    color: #343434;
+    text-decoration: none;
+}

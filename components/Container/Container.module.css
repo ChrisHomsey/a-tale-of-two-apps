@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.fluid {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

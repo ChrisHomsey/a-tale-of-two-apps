@@ -1,0 +1,33 @@
+.navbar {
+  background: #020202;
+  color: #ffffff;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-right: auto;
+  font-size: 150%;
+  padding: 16px 16px 12px;
+}
+
+.item {
+  padding: 16px 16px;
+}
+
+.item > a {
+  cursor: pointer;
+  vertical-align: middle;
+  font-weight: normal;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.item > a:hover {
+  color: rgba(255,255,255,0.76);
+}

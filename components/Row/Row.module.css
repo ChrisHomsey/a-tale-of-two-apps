@@ -1,0 +1,8 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row > .col {
+    padding: 1.5rem;
+}   

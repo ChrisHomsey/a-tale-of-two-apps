@@ -1,0 +1,15 @@
+.card {
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+    padding: 1.5rem 1rem;
+}
+
+.card a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #406fc0;
+}
+
+.card a:hover {
+    color: #343434;
+}

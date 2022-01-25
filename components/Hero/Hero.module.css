@@ -1,0 +1,38 @@
+.hero {
+  position: relative;
+  background-color: #eaeaea;
+  height: 400px;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.overlay {
+  position: absolute;
+  background-color: #000;
+  opacity: 0.6;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 1rem;
+}
+
+.image {
+  object-fit: fill;
+  border-radius: 1rem;
+}
+
+.content {
+  position: absolute;
+  bottom: 5rem;
+  left: 2rem;
+}
+
+.content h1 {
+  color: #fff;
+}
+
+.content span {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 1.4rem;
+}

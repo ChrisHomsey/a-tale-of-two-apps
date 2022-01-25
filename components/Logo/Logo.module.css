@@ -1,0 +1,14 @@
+.logo {
+	font-size: 28px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+}
+
+.regular{
+	color:  #5383d3;
+}
+
+.monochrome {
+    color: rgba(255,255,255,0.68);
+}

@@ -1,0 +1,130 @@
+.footer {
+	background: #1b2d4d;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+.copyright {
+    color: #eaeaea;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.finePrint {
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(255,255,255, 0.6);
+    display: block;
+    max-width: 600px;
+    margin: 4rem 0 1rem 0;
+}
+
+/* Footer left */
+
+.left{
+	float: left;
+	padding-top: 1.5rem;
+}
+
+/* Footer links */
+
+.links{
+	color:  #ffffff;
+	margin: 16px 0 10px;
+	padding: 0;
+}
+
+.links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+    margin-right: 40px;
+	color:  inherit;
+}
+
+/* Footer social icons */
+
+.icons{
+	margin-top: 40px;
+}
+
+.icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.right{
+	float: right;
+}
+
+.right h4 {
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 16px;
+	color: #ffffff;
+}
+
+/* The contact form */
+.footer form input,
+.footer form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #121e33;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #ffffff;
+	width: 400px;
+	padding: 18px;
+}
+
+.footer ::-webkit-input-placeholder {
+	color:  rgba(255,255,255, 0.6);
+}
+
+.footer ::-moz-placeholder {
+	color:  rgba(255,255,255, 0.6);
+	opacity: 1;
+}
+
+.footer :-ms-input-placeholder{
+	color:  rgba(255,255,255, 0.6);
+}
+
+
+.footer form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer form button, .footer form .button {
+	float: right;
+}

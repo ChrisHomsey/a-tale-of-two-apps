@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.488rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+main {
+  margin: 16px;
+  min-height: 60vh;
+}
+
+section {
+  margin: 0 0 4rem;
+}
