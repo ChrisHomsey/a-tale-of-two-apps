@@ -82,7 +82,7 @@ export default function Home() {
             quasi natus officia provident!
           </p>
 
-          <Button url="+15555555555">Call Now</Button>
+          <Button url="tel:+15555555555">Call Now</Button>
         </section>
       </Content>
     </Container>

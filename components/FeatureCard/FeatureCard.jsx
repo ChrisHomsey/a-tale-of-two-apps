@@ -3,6 +3,7 @@ import Button from '../Button/Button';
 import styles from "./FeatureCard.module.css";
 
 const FeatureCard = ({ title, description, url }) => {
+  // Javascript
   return (
     <div className={styles.card}>
       <h3>{title}</h3>
